@@ -7,31 +7,37 @@
   <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
 
   <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
   <script src="MakeMeCoffee.js"></script>
+
+  <style>
+    .container {
+      max-width: 320px;
+    }
+    #forma {
+      max-width: 270px;
+    }
+    #directions{
+      max-width: 300px;
+
+    }
+  </style>
 
 </head>
 <body>
   <div class="container">
-    <form role="form" id="forma">
-      <div class="form-group">
-        <div class="col-xs-2">
+    <form class="form-horizontal" role="form" id="forma">
+      <div class="form-group form-group-lg">
+        <div class="col-xs-7">
           <input type="text" class="form-control" placeholder="enter ounces" id="ounces">
         </div>
-        <button type="submit" class="btn btn-default">Coffee</button>
+        <button type="submit" class="btn btn-success btn-lg">Coffee</button>
       </div>
     </form>
-
+    <h4 id="directions"></h4>
   </div>
 
 
-  <script type="text/javascript">
-    $(document).ready(function() {
-        $( "#forma" ).submit(function( event ) {
-          alert($("#ounces").val());
-          event.preventDefault();
-        });
-    });
-  </script>
+
 </body>
 </html>
