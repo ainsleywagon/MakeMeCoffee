@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Make Me Coffee</title>
+
+  <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+
+  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+
+  <script src="MakeMeCoffee.js"></script>
+
+  <style>
+    .container {
+      max-width: 320px;
+    }
+    #forma {
+      max-width: 270px;
+    }
+    #directions{
+      max-width: 300px;
+
+    }
+  </style>
+
+</head>
+<body>
+  <div class="container">
+    <form class="form-horizontal" role="form" id="forma">
+      <div class="form-group form-group-lg">
+        <div class="col-xs-7">
+          <input type="text" class="form-control" placeholder="enter ounces" id="ounces">
+        </div>
+        <button type="submit" class="btn btn-success btn-lg">Coffee</button>
+      </div>
+    </form>
+    <h4 id="directions"></h4>
+  </div>
+
+
+
+</body>
+</html>

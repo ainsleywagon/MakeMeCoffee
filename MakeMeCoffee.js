@@ -1,12 +1,21 @@
-var ounces = 5;
+$(document).ready(function() {
 
-var makeMeCoffee = function(ounces) {
-  var beanQty = Math.round(ounces * 1.2083333).toFixed(2);
-  var waterQty = Math.round(beanQty * 16.4285714).toFixed(2);
-  var firstPour = (beanQty * 2).toFixed(2);
-  var secondPour = (waterQty - firstPour).toFixed(2);
+    $( "#forma" ).submit(function( event ) {
+      event.preventDefault();
+      makeMeCoffee($("#ounces").val());
+    });
 
-  console.log(beanQty + 'g', firstPour + 'g', secondPour + 'g');
-};
+    var makeMeCoffee = function(ounces) {
+      var beanQty = Math.round(ounces * 1.2083333).toFixed(2);
+      var waterQty = Math.round(beanQty * 16.4285714).toFixed(2);
+      var firstPour = (beanQty * 2).toFixed(2);
+      var secondPour = (waterQty - firstPour).toFixed(2);
 
-makeMeCoffee(ounces);
+      var htmlString = "You need " + beanQty + 'g of coffee';
+      $('#directions').text(htmlString);
+
+      console.log('You need ' + beanQty + 'g of coffee');
+    };
+
+
+});
