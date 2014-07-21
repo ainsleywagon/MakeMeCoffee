@@ -7,7 +7,7 @@
 
     <link href="lib/ionic/css/ionic.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
     <link href="css/ionic.app.css" rel="stylesheet">
     -->
@@ -43,9 +43,11 @@
                   submit
                 </button>
               </div> -->
+              <img src= "../design/splash.png">
+              <div class= "question-prompt">How much coffee do you want?</div>
               <form ng-submit="calculate()">
-                <input type="text" ng-model="ounces"  size="30" placeholder="Ounces">
-                <input class="button buttun-block button-balanced" type="submit" value="how much?">
+                <input type="text" ng-model="ounces" class="coffee-input" size="30" placeholder="Ounces">
+                <input class="button coffee-btn" type="submit" value="submit">
 
               <ul>
                 <li>esto es lo que metiste {{ounces}}</li>
