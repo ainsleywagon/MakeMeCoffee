@@ -35,24 +35,16 @@
 
           <div class="row">
             <div class="col col-75 col-offset-10">
-              <!-- <div class="list list-inset ">
-
-                  <input type="text" placeholder="Ounces of coffee">
-
-                <button ng-click="" class="button button-block button-balanced">
-                  submit
-                </button>
-              </div> -->
+              
               <form ng-submit="calculate()">
-                <input type="text" ng-model="ounces"  size="30" placeholder="Ounces">
+                <input type="text" ng-model="valores.ounces"  size="30" placeholder="Ounces">
                 <input class="button buttun-block button-balanced" type="submit" value="how much?">
 
               <ul>
-                <li>esto es lo que metiste {{ounces}}</li>
-                <li>- {{beanQty}}</li>
-                <li>- {{waterQty}}</li>
-                <li>- {{firstPour}}</li>
-                <li>- {{secondPour}}</li>
+                <li>{{valores.beanQty}}</li>
+                <li>{{valores.waterQty}}</li>
+                <li>{{valores.firstPour}}</li>
+                <li>{{valores.secondPour}}</li>
               </ul>
             </form>
             </div>
