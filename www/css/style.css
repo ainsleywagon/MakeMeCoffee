@@ -11,13 +11,20 @@ body {
   margin-right: auto;
 }
 
+.button {
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 10px;
+}
+
 .coffee-btn {
   color: white;
-  background-color: brown;
+  background-color: #42210b;
   border: 3px solid black;
   margin: 30px;
 }
 
 .coffee-input {
-  color: purple;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  border: 3px solid black;
 }
