@@ -7,7 +7,7 @@
 
     <link href="lib/ionic/css/ionic.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
     <link href="css/ionic.app.css" rel="stylesheet">
     -->
@@ -31,26 +31,37 @@
     <ion-pane ng-controller="mainCtrl">
 
       <ion-content>
-        <div class="list">
+
 
           <div class="row">
-            <div class="col col-75 col-offset-10">
-              
+            <div class="col">
+              <!-- <div class="list list-inset ">
+
+                  <input type="text" placeholder="Ounces of coffee">
+
+                <button ng-click="" class="button button-block button-balanced">
+                  submit
+                </button>
+              </div> -->
+              <img class='coffee-cup' src= "../design/coffeecup.png">
+              <div class= "question-prompt">How much coffee do you want?</div>
               <form ng-submit="calculate()">
-                <input type="text" ng-model="valores.ounces"  size="30" placeholder="Ounces">
-                <input class="button buttun-block button-balanced" type="submit" value="how much?">
+                <input type="text" ng-model="ounces" class="coffee-input" size="30" placeholder="Ounces">
+                <input class="button button-large coffee-btn" type="Submit" value="Submit">
 
               <ul>
-                <li>{{valores.beanQty}}</li>
-                <li>{{valores.waterQty}}</li>
-                <li>{{valores.firstPour}}</li>
-                <li>{{valores.secondPour}}</li>
+                <li>esto es lo que metiste:{{ounces}}</li>
+                <li>15g Coffee {{beanQty}}</li>
+                <li>400g water {{waterQty}}</li>
+                <li>30g first pour {{firstPour}}</li>
+                <li>370 second pour {{secondPour}}</li>
+
               </ul>
             </form>
             </div>
           </div>
 
-        </div>
+
       </ion-content>
     </ion-pane>
   </body>
