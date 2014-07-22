@@ -20,12 +20,18 @@ angular.module('coffeeCalculator', ['ionic'])
 
 .controller('mainCtrl', ['$scope', function($scope){
 
+    $scope.valores = [];
 
     $scope.calculate = function(){
-      $scope.beanQty = Math.round($scope.ounces * 1.2083333).toFixed(2);
-      $scope.waterQty = Math.round(beanQty * 16.4285714).toFixed(2);
-      $scope.firstPour = (beanQty * 2).toFixed(2);
-      $scope.secondPour = (waterQty - firstPour).toFixed(2);
+      $scope.valores.push = {};
+      $scope.valores.beanQty = Math.round($scope.valores.ounces * 1.2083333).toFixed(2);
+      $scope.valores.waterQty = Math.round($scope.valores.beanQty * 16.4285714).toFixed(2);
+      $scope.valores.firstPour = ($scope.valores.beanQty * 2).toFixed(2);
+      $scope.valores.secondPour = ($scope.valores.waterQty - $scope.valores.firstPour).toFixed(2);
+
+
+
+      console.log($scope.valores.ounces);
 
     };
 
