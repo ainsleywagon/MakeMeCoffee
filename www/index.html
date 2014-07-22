@@ -31,10 +31,10 @@
     <ion-pane ng-controller="mainCtrl">
 
       <ion-content>
-        <div class="list">
+
 
           <div class="row">
-            <div class="col col-75 col-offset-10">
+            <div class="col">
               <!-- <div class="list list-inset ">
 
                   <input type="text" placeholder="Ounces of coffee">
@@ -43,11 +43,11 @@
                   submit
                 </button>
               </div> -->
-              <img src= "../design/coffeecup.png">
+              <img class='coffee-cup' src= "../design/coffeecup.png">
               <div class= "question-prompt">How much coffee do you want?</div>
               <form ng-submit="calculate()">
                 <input type="text" ng-model="ounces" class="coffee-input" size="30" placeholder="Ounces">
-                <input class="button coffee-btn" type="submit" value="submit">
+                <input class="button button-large coffee-btn" type="submit" value="submit">
 
               <ul>
                 <li>esto es lo que metiste:{{ounces}}</li>
@@ -60,7 +60,7 @@
             </div>
           </div>
 
-        </div>
+
       </ion-content>
     </ion-pane>
   </body>
