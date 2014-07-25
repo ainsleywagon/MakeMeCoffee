@@ -44,8 +44,8 @@
               </div>
               <div  ng-class="question">How much coffee <br>do you want? </div>
                 <form  ng-submit="calculate()">
-                <input type="text" ng-model="valores.ounces" ng-class="ounzesInput" size="30" placeholder="Ounces">
-                <input ng-click="changeClass()" ng-class="botonOunzes" type="Submit" value="Submit">
+                <input ng-animate="'animate'" type="text" ng-model="valores.ounces" ng-class="ounzesInput" size="30" placeholder="Ounces">
+                <input ng-animate="'animate'" ng-click="changeClass()" ng-class="botonOunzes" type="Submit" value="Submit">
 
             <ul>
               <li ng-class="class">{{valores.beanQty}}g of Coffee beans</li>
