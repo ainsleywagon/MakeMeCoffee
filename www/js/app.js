@@ -18,6 +18,7 @@ angular.module('coffeeCalculator', ['ionic'])
   });
 })
 
+
 .controller('mainCtrl', ['$scope', function($scope){
 
     $scope.valores = [];

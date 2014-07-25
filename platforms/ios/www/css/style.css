@@ -1,1 +1,47 @@
 /* Empty. Add your own CSS if you like */
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 125%;
+  line-height: 1.25em;
+  font-weight: bold;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button {
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 10px;
+}
+
+.button:hover {
+  color: #000000;
+}
+
+.coffee-btn {
+  color: white;
+  background-color: #42210b;
+  border: 3px solid black;
+  margin: 30px;
+  width: 75% !important;
+  max-width: 400px;
+}
+
+.coffee-input {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  border: black solid 3px !important;
+  border-radius: 10px;
+  height: 50px !important;
+  width: 75%;
+  max-width: 400px;
+  font-size: 75% !important;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.coffee-cup {
+  padding: 30px;
+}

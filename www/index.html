@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="coffeeCalculator">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
@@ -26,40 +26,28 @@
       }
     </style>
   </head>
-  <body ng-app="coffeeCalculator">
+  <body  ng-controller="mainCtrl" animation="slide-left-right-ios7">
 
-    <ion-pane ng-controller="mainCtrl">
+    <ion-pane>
 
       <ion-content>
 
-
-          <div class="row">
-            <div class="col">
-              <!-- <div class="list list-inset ">
-
-                  <input type="text" placeholder="Ounces of coffee">
-
-                <button ng-click="" class="button button-block button-balanced">
-                  submit
-                </button>
-              </div> -->
-              <img class='coffee-cup' src= "../design/coffeecup.png">
-              <div class= "question-prompt">How much coffee do you want?</div>
+              <img class='coffee-cup' src= "img/coffeecup.png">
+              <div class= "question-prompt">How much coffee <br>do you want?</div>
               <form ng-submit="calculate()">
-                <input type="text" ng-model="ounces" class="coffee-input" size="30" placeholder="Ounces">
+                <input type="text" ng-model="valores.ounces" class="coffee-input" size="30" placeholder="Ounces">
                 <input class="button button-large coffee-btn" type="Submit" value="Submit">
 
-              <ul>
-                <li>esto es lo que metiste:{{ounces}}</li>
-                <li>15g Coffee {{beanQty}}</li>
-                <li>400g water {{waterQty}}</li>
-                <li>30g first pour {{firstPour}}</li>
-                <li>370 second pour {{secondPour}}</li>
+            <ul>
+              <li>{{valores.beanQty}}g of Coffee</li>
+              <li>{{valores.waterQty}}g water</li>
+              <li>{{valores.firstPour}}g first pour</li>
+              <li>{{valores.secondPour}}g second pour</li>
 
-              </ul>
+            </ul>
             </form>
-            </div>
-          </div>
+
+
 
 
       </ion-content>
