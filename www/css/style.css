@@ -42,6 +42,20 @@ body {
   margin-top: 20px;
 }
 
+.green-container {
+  background-color: #DEEFD4;
+  height: 150px;
+  width: 150px;
+  margin: 0 auto;
+  border-radius: 100%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
 .coffee-cup {
-  padding: 30px;
+
+}
+
+.splash {
+  width: 180px;
 }
