@@ -30,10 +30,18 @@ angular.module('coffeeCalculator', ['ionic'])
       $scope.valores.firstPour = ($scope.valores.beanQty * 2).toFixed(2);
       $scope.valores.secondPour = ($scope.valores.waterQty - $scope.valores.firstPour).toFixed(2);
 
-
-
       console.log($scope.valores.ounces);
 
+    };
+
+    $scope.class = "red";
+
+    $scope.changeClass = function(){
+      if($scope.class === 'red'){
+        $scope.class = 'blue';
+      } else {
+        $scope.class = "red";
+      }
     };
 
 }]);

@@ -24,6 +24,12 @@
       .list{
         margin-top: 100px;
       }
+      .red {
+        color: red;
+      }
+      .blue {
+        color: blue;
+      }
     </style>
   </head>
   <body  ng-controller="mainCtrl" animation="slide-left-right-ios7">
@@ -32,20 +38,17 @@
 
       <ion-content>
 
-            <div id="crossfade">
-              <img class='coffee-cup bottom' src= "img/coffeecup.png">
-              <img class='coffee-cup top' src= "img/chemex.png">
-            </div>
-              <div class= "question-prompt">How much coffee <br>do you want?</div>
+              <img class='coffee-cup' src= "img/coffeecup.png">
+              <div class= "question-prompt">How much coffee <br>do you want? </div>
               <form ng-submit="calculate()">
                 <input type="text" ng-model="valores.ounces" class="coffee-input" size="30" placeholder="Ounces">
-                <input class="button button-large coffee-btn" type="Submit" value="Submit">
+                <input ng-click="changeClass()" class="button button-large coffee-btn" type="Submit" value="Submit">
 
             <ul>
-              <li>{{valores.beanQty}}g of Coffee</li>
-              <li>{{valores.waterQty}}g water</li>
-              <li>{{valores.firstPour}}g first pour</li>
-              <li>{{valores.secondPour}}g second pour</li>
+              <li ng-class="class">{{valores.beanQty}}g of Coffee</li>
+              <li ng-class="class">{{valores.waterQty}}g water</li>
+              <li ng-class="class">{{valores.firstPour}}g first pour</li>
+              <li ng-class="class">{{valores.secondPour}}g second pour</li>
 
             </ul>
             </form>
