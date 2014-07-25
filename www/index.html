@@ -32,7 +32,10 @@
 
       <ion-content>
 
-              <img class='coffee-cup' src= "img/coffeecup.png">
+            <div id="crossfade">
+              <img class='coffee-cup bottom' src= "img/coffeecup.png">
+              <img class='coffee-cup top' src= "img/chemex.png">
+            </div>
               <div class= "question-prompt">How much coffee <br>do you want?</div>
               <form ng-submit="calculate()">
                 <input type="text" ng-model="valores.ounces" class="coffee-input" size="30" placeholder="Ounces">

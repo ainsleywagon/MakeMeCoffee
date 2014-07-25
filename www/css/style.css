@@ -45,3 +45,23 @@ body {
 .coffee-cup {
   padding: 30px;
 }
+
+#crossfade {
+    position:relative;
+    height:250px;
+    width:400px;
+}
+#crossfade img {
+    position:absolute;
+    left:0;
+    opacity: 1;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    -ms-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+}
+
+#crossfade img.top:hover {
+    opacity:0;
+}
