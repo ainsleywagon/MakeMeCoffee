@@ -30,10 +30,33 @@ angular.module('coffeeCalculator', ['ionic'])
       $scope.valores.firstPour = ($scope.valores.beanQty * 2).toFixed(2);
       $scope.valores.secondPour = ($scope.valores.waterQty - $scope.valores.firstPour).toFixed(2);
 
-
-
       console.log($scope.valores.ounces);
 
+    };
+
+    $scope.class = "red";
+    $scope.imgContainer = "green-container";
+    $scope.divImg = "cafe";
+    $scope.imgClass = "coffee-cup";
+    $scope.question = "question-prompt";
+    $scope.ounzesInput = "coffee-input";
+    $scope.botonOunzes = "button button-large coffee-btn";
+    $scope.lista = "lista";
+
+    $scope.changeClass = function(){
+      if($scope.class === 'red'){
+        $scope.class = 'gray';
+        $scope.divImg = "jarra";
+        $scope.imgClass = "splash";
+        $scope.question = "question-mv";
+        $scope.ounzesInput = "ounzesInput-mv";
+        $scope.botonOunzes = "botonOunzes-mv";
+        $scope.lista = "lista-mv";
+      } else {
+        $scope.class = "red";
+        $scope.divImg = "cafe";
+        $scope.imgClass = "coffee-cup";
+      }
     };
 
 }]);

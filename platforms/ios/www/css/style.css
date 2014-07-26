@@ -42,6 +42,53 @@ body {
   margin-top: 20px;
 }
 
+.green-container {
+  background-color: #DEEFD4;
+  height: 150px;
+  width: 150px;
+  margin: 0 auto;
+  border-radius: 100%;
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+
 .coffee-cup {
-  padding: 30px;
+
+}
+
+.splash {
+
+}
+
+.question-mv {
+  opacity:0;
+}
+
+.ounzesInput-mv {
+    transform: translate(350px,0);
+    -webkit-transform: translate(350px,0); /** Chrome & Safari **/
+    -o-transform: translate(350px,0); /** Opera **/
+    -moz-transform: translate(350px,0); /** Firefox **/
+}
+
+.botonOunzes-mv {
+    transform: translate(-350px,0);
+    -webkit-transform: translate(-350px,0); /** Chrome & Safari **/
+    -o-transform: translate(-350px,0); /** Opera **/
+    -moz-transform: translate(-350px,0); /** Firefox **/
+}
+
+.lista-mv {
+    position: relative;
+    top: -120px;
+}
+
+.list{
+  margin-top: 100px;
+}
+.red {
+  color: white;
+}
+.gray {
+  color: #666;
 }

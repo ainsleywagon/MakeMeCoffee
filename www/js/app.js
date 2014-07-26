@@ -36,20 +36,25 @@ angular.module('coffeeCalculator', ['ionic'])
 
     $scope.class = "red";
     $scope.imgContainer = "green-container";
-    $scope.divImg = "coffeecup";
+    $scope.divImg = "cafe";
     $scope.imgClass = "coffee-cup";
     $scope.question = "question-prompt";
     $scope.ounzesInput = "coffee-input";
     $scope.botonOunzes = "button button-large coffee-btn";
+    $scope.lista = "lista";
 
     $scope.changeClass = function(){
       if($scope.class === 'red'){
-        $scope.class = 'blue';
-        $scope.divImg = "splash";
+        $scope.class = 'gray';
+        $scope.divImg = "jarra";
         $scope.imgClass = "splash";
+        $scope.question = "question-mv";
+        $scope.ounzesInput = "ounzesInput-mv";
+        $scope.botonOunzes = "botonOunzes-mv";
+        $scope.lista = "lista-mv";
       } else {
         $scope.class = "red";
-        $scope.divImg = "coffeecup";
+        $scope.divImg = "cafe";
         $scope.imgClass = "coffee-cup";
       }
     };

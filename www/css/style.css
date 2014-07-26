@@ -48,7 +48,7 @@ body {
   width: 150px;
   margin: 0 auto;
   border-radius: 100%;
-  margin-top: 40px;
+  margin-top: 70px;
   margin-bottom: 40px;
 }
 
@@ -57,26 +57,38 @@ body {
 }
 
 .splash {
-  width: 180px;
+
 }
 
-#crossfade {
-    position:relative;
-    height:250px;
-    width:400px;
+.question-mv {
+  opacity:0;
 }
 
-#crossfade img {
-    position:absolute;
-    left:0;
-    opacity: 1;
-    -webkit-transition: opacity 1s ease-in-out;
-    -moz-transition: opacity 1s ease-in-out;
-    -o-transition: opacity 1s ease-in-out;
-    -ms-transition: opacity 1s ease-in-out;
-    transition: opacity 1s ease-in-out;
+.ounzesInput-mv {
+    transform: translate(350px,0);
+    -webkit-transform: translate(350px,0); /** Chrome & Safari **/
+    -o-transform: translate(350px,0); /** Opera **/
+    -moz-transform: translate(350px,0); /** Firefox **/
 }
 
-#crossfade img.top:hover {
-    opacity:0;
+.botonOunzes-mv {
+    transform: translate(-350px,0);
+    -webkit-transform: translate(-350px,0); /** Chrome & Safari **/
+    -o-transform: translate(-350px,0); /** Opera **/
+    -moz-transform: translate(-350px,0); /** Firefox **/
+}
+
+.lista-mv {
+    position: relative;
+    top: -120px;
+}
+
+.list{
+  margin-top: 100px;
+}
+.red {
+  color: white;
+}
+.gray {
+  color: #666;
 }

@@ -98,3 +98,140 @@
 2014-07-22 15:25:19.390 MakeMeCoffee[18075:70b] [CDVTimer][TotalPluginStartup] 1.863003ms
 2014-07-22 15:25:19.532 MakeMeCoffee[18075:70b] Resetting plugins due to page load.
 2014-07-22 15:25:19.971 MakeMeCoffee[18075:70b] Finished load of: file:///Users/imanol/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/C6A35F1F-23B7-4C45-B101-9A8E6350AB19/MakeMeCoffee.app/www/index.html
+2014-07-25 14:35:39.437 MakeMeCoffee[24453:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-25 14:35:39.470 MakeMeCoffee[24453:70b] Unlimited access to network resources
+2014-07-25 14:35:39.633 MakeMeCoffee[24453:70b] [CDVTimer][keyboard] 0.069022ms
+2014-07-25 14:35:39.634 MakeMeCoffee[24453:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-25 14:35:39.634 MakeMeCoffee[24453:70b] [CDVTimer][statusbar] 0.395000ms
+2014-07-25 14:35:39.635 MakeMeCoffee[24453:70b] [CDVTimer][TotalPluginStartup] 1.339018ms
+2014-07-25 14:35:39.770 MakeMeCoffee[24453:70b] Resetting plugins due to page load.
+2014-07-25 14:35:40.236 MakeMeCoffee[24453:70b] Finished load of: file:///Users/imanol/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/C6A35F1F-23B7-4C45-B101-9A8E6350AB19/MakeMeCoffee.app/www/index.html
+2014-07-25 14:35:48.451 MakeMeCoffee[24453:70b] 32
+2014-07-25 14:36:28.910 MakeMeCoffee[24677:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-25 14:36:28.919 MakeMeCoffee[24677:70b] Unlimited access to network resources
+2014-07-25 14:36:28.939 MakeMeCoffee[24677:70b] [CDVTimer][keyboard] 0.063002ms
+2014-07-25 14:36:28.940 MakeMeCoffee[24677:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-25 14:36:28.940 MakeMeCoffee[24677:70b] [CDVTimer][statusbar] 0.436008ms
+2014-07-25 14:36:28.940 MakeMeCoffee[24677:70b] [CDVTimer][TotalPluginStartup] 1.434982ms
+2014-07-25 14:36:29.033 MakeMeCoffee[24677:70b] Resetting plugins due to page load.
+2014-07-25 14:36:29.390 MakeMeCoffee[24677:70b] Finished load of: file:///Users/imanol/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/C6A35F1F-23B7-4C45-B101-9A8E6350AB19/MakeMeCoffee.app/www/index.html
+2014-07-25 14:36:49.399 MakeMeCoffee[24677:70b] Received memory warning.
+2014-07-25 14:38:21.825 MakeMeCoffee[24909:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-25 14:38:21.833 MakeMeCoffee[24909:70b] Unlimited access to network resources
+2014-07-25 14:38:21.848 MakeMeCoffee[24909:70b] [CDVTimer][keyboard] 0.082016ms
+2014-07-25 14:38:21.849 MakeMeCoffee[24909:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-25 14:38:21.849 MakeMeCoffee[24909:70b] [CDVTimer][statusbar] 0.474989ms
+2014-07-25 14:38:21.850 MakeMeCoffee[24909:70b] [CDVTimer][TotalPluginStartup] 1.502037ms
+2014-07-25 14:38:21.949 MakeMeCoffee[24909:70b] Resetting plugins due to page load.
+2014-07-25 14:38:22.258 MakeMeCoffee[24909:70b] Finished load of: file:///Users/imanol/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/C6A35F1F-23B7-4C45-B101-9A8E6350AB19/MakeMeCoffee.app/www/index.html
+2014-07-25 14:38:36.965 MakeMeCoffee[24909:70b] Received memory warning.
+2014-07-25 14:46:08.209 MakeMeCoffee[25143:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-25 14:46:08.215 MakeMeCoffee[25143:70b] Unlimited access to network resources
+2014-07-25 14:46:08.236 MakeMeCoffee[25143:70b] [CDVTimer][keyboard] 0.086010ms
+2014-07-25 14:46:08.237 MakeMeCoffee[25143:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-25 14:46:08.237 MakeMeCoffee[25143:70b] [CDVTimer][statusbar] 0.485003ms
+2014-07-25 14:46:08.238 MakeMeCoffee[25143:70b] [CDVTimer][TotalPluginStartup] 1.469016ms
+2014-07-25 14:46:08.331 MakeMeCoffee[25143:70b] Resetting plugins due to page load.
+2014-07-25 14:46:08.644 MakeMeCoffee[25143:70b] Finished load of: file:///Users/imanol/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/C6A35F1F-23B7-4C45-B101-9A8E6350AB19/MakeMeCoffee.app/www/index.html
+Terminating in response to SpringBoard's termination.
+2014-07-25 14:52:14.308 MakeMeCoffee[25377:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-25 14:52:14.357 MakeMeCoffee[25377:70b] Unlimited access to network resources
+2014-07-25 14:52:14.543 MakeMeCoffee[25377:70b] [CDVTimer][keyboard] 0.068009ms
+2014-07-25 14:52:14.543 MakeMeCoffee[25377:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-25 14:52:14.544 MakeMeCoffee[25377:70b] [CDVTimer][statusbar] 0.405014ms
+2014-07-25 14:52:14.544 MakeMeCoffee[25377:70b] [CDVTimer][TotalPluginStartup] 1.231015ms
+2014-07-25 14:52:14.671 MakeMeCoffee[25377:70b] Resetting plugins due to page load.
+2014-07-25 14:52:15.115 MakeMeCoffee[25377:70b] Finished load of: file:///Users/imanol/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/C6A35F1F-23B7-4C45-B101-9A8E6350AB19/MakeMeCoffee.app/www/index.html
+2014-07-25 14:52:22.646 MakeMeCoffee[25377:70b] Received memory warning.
+2014-07-25 15:03:50.966 MakeMeCoffee[25628:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-25 15:03:50.972 MakeMeCoffee[25628:70b] Unlimited access to network resources
+2014-07-25 15:03:50.990 MakeMeCoffee[25628:70b] [CDVTimer][keyboard] 0.056982ms
+2014-07-25 15:03:50.990 MakeMeCoffee[25628:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-25 15:03:50.991 MakeMeCoffee[25628:70b] [CDVTimer][statusbar] 0.369012ms
+2014-07-25 15:03:50.991 MakeMeCoffee[25628:70b] [CDVTimer][TotalPluginStartup] 1.213968ms
+2014-07-25 15:03:51.073 MakeMeCoffee[25628:70b] Resetting plugins due to page load.
+2014-07-25 15:03:51.403 MakeMeCoffee[25628:70b] Finished load of: file:///Users/imanol/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/C6A35F1F-23B7-4C45-B101-9A8E6350AB19/MakeMeCoffee.app/www/index.html
+2014-07-25 15:04:44.241 MakeMeCoffee[25974:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-25 15:04:44.250 MakeMeCoffee[25974:70b] Unlimited access to network resources
+2014-07-25 15:04:44.270 MakeMeCoffee[25974:70b] [CDVTimer][keyboard] 0.063002ms
+2014-07-25 15:04:44.270 MakeMeCoffee[25974:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-25 15:04:44.271 MakeMeCoffee[25974:70b] [CDVTimer][statusbar] 0.373006ms
+2014-07-25 15:04:44.271 MakeMeCoffee[25974:70b] [CDVTimer][TotalPluginStartup] 1.405001ms
+2014-07-25 15:04:44.370 MakeMeCoffee[25974:70b] Resetting plugins due to page load.
+2014-07-25 15:04:44.687 MakeMeCoffee[25974:70b] Finished load of: file:///Users/imanol/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/C6A35F1F-23B7-4C45-B101-9A8E6350AB19/MakeMeCoffee.app/www/index.html
+2014-07-25 15:05:02.150 MakeMeCoffee[26137:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-25 15:05:02.156 MakeMeCoffee[26137:70b] Unlimited access to network resources
+2014-07-25 15:05:02.171 MakeMeCoffee[26137:70b] [CDVTimer][keyboard] 0.060022ms
+2014-07-25 15:05:02.171 MakeMeCoffee[26137:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-25 15:05:02.172 MakeMeCoffee[26137:70b] [CDVTimer][statusbar] 0.353038ms
+2014-07-25 15:05:02.172 MakeMeCoffee[26137:70b] [CDVTimer][TotalPluginStartup] 1.128972ms
+2014-07-25 15:05:02.204 MakeMeCoffee[26137:70b] Resetting plugins due to page load.
+2014-07-25 15:05:02.485 MakeMeCoffee[26137:70b] Finished load of: file:///Users/imanol/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/C6A35F1F-23B7-4C45-B101-9A8E6350AB19/MakeMeCoffee.app/www/index.html
+2014-07-25 15:05:32.359 MakeMeCoffee[26324:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-25 15:05:32.366 MakeMeCoffee[26324:70b] Unlimited access to network resources
+2014-07-25 15:05:32.381 MakeMeCoffee[26324:70b] [CDVTimer][keyboard] 0.059009ms
+2014-07-25 15:05:32.382 MakeMeCoffee[26324:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-25 15:05:32.382 MakeMeCoffee[26324:70b] [CDVTimer][statusbar] 0.374973ms
+2014-07-25 15:05:32.383 MakeMeCoffee[26324:70b] [CDVTimer][TotalPluginStartup] 1.284003ms
+2014-07-25 15:05:32.470 MakeMeCoffee[26324:70b] Resetting plugins due to page load.
+2014-07-25 15:05:32.778 MakeMeCoffee[26324:70b] Finished load of: file:///Users/imanol/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/C6A35F1F-23B7-4C45-B101-9A8E6350AB19/MakeMeCoffee.app/www/index.html
+Terminating in response to SpringBoard's termination.
+2014-07-25 15:05:49.437 MakeMeCoffee[26511:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-25 15:05:49.447 MakeMeCoffee[26511:70b] Unlimited access to network resources
+2014-07-25 15:05:49.466 MakeMeCoffee[26511:70b] [CDVTimer][keyboard] 0.057995ms
+2014-07-25 15:05:49.466 MakeMeCoffee[26511:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-25 15:05:49.467 MakeMeCoffee[26511:70b] [CDVTimer][statusbar] 0.509024ms
+2014-07-25 15:05:49.467 MakeMeCoffee[26511:70b] [CDVTimer][TotalPluginStartup] 1.588047ms
+2014-07-25 15:05:49.562 MakeMeCoffee[26511:70b] Resetting plugins due to page load.
+2014-07-25 15:05:49.867 MakeMeCoffee[26511:70b] Finished load of: file:///Users/imanol/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/C6A35F1F-23B7-4C45-B101-9A8E6350AB19/MakeMeCoffee.app/www/index.html
+2014-07-25 15:06:09.346 MakeMeCoffee[26704:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-25 15:06:09.353 MakeMeCoffee[26704:70b] Unlimited access to network resources
+2014-07-25 15:06:09.369 MakeMeCoffee[26704:70b] [CDVTimer][keyboard] 0.087976ms
+2014-07-25 15:06:09.369 MakeMeCoffee[26704:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-25 15:06:09.370 MakeMeCoffee[26704:70b] [CDVTimer][statusbar] 0.373006ms
+2014-07-25 15:06:09.370 MakeMeCoffee[26704:70b] [CDVTimer][TotalPluginStartup] 1.551032ms
+2014-07-25 15:06:09.456 MakeMeCoffee[26704:70b] Resetting plugins due to page load.
+2014-07-25 15:06:09.766 MakeMeCoffee[26704:70b] Finished load of: file:///Users/imanol/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/C6A35F1F-23B7-4C45-B101-9A8E6350AB19/MakeMeCoffee.app/www/index.html
+2014-07-25 15:06:30.375 MakeMeCoffee[26704:70b] 32
+2014-07-25 15:24:48.834 MakeMeCoffee[26902:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-25 15:24:48.840 MakeMeCoffee[26902:70b] Unlimited access to network resources
+2014-07-25 15:24:48.854 MakeMeCoffee[26902:70b] [CDVTimer][keyboard] 0.075996ms
+2014-07-25 15:24:48.854 MakeMeCoffee[26902:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-25 15:24:48.855 MakeMeCoffee[26902:70b] [CDVTimer][statusbar] 0.355005ms
+2014-07-25 15:24:48.855 MakeMeCoffee[26902:70b] [CDVTimer][TotalPluginStartup] 1.222968ms
+2014-07-25 15:24:48.909 MakeMeCoffee[26902:70b] Resetting plugins due to page load.
+2014-07-25 15:24:49.232 MakeMeCoffee[26902:70b] Finished load of: file:///Users/imanol/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/C6A35F1F-23B7-4C45-B101-9A8E6350AB19/MakeMeCoffee.app/www/index.html
+2014-07-25 15:25:18.116 MakeMeCoffee[27124:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-25 15:25:18.123 MakeMeCoffee[27124:70b] Unlimited access to network resources
+2014-07-25 15:25:18.143 MakeMeCoffee[27124:70b] [CDVTimer][keyboard] 0.087976ms
+2014-07-25 15:25:18.143 MakeMeCoffee[27124:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-25 15:25:18.144 MakeMeCoffee[27124:70b] [CDVTimer][statusbar] 0.465035ms
+2014-07-25 15:25:18.144 MakeMeCoffee[27124:70b] [CDVTimer][TotalPluginStartup] 1.601994ms
+2014-07-25 15:25:18.237 MakeMeCoffee[27124:70b] Resetting plugins due to page load.
+2014-07-25 15:25:18.512 MakeMeCoffee[27124:70b] Finished load of: file:///Users/imanol/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/C6A35F1F-23B7-4C45-B101-9A8E6350AB19/MakeMeCoffee.app/www/index.html
+2014-07-25 15:25:23.225 MakeMeCoffee[27124:70b] 32
+2014-07-25 15:44:24.202 MakeMeCoffee[27452:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-25 15:44:24.240 MakeMeCoffee[27452:70b] Unlimited access to network resources
+2014-07-25 15:44:24.533 MakeMeCoffee[27452:70b] [CDVTimer][keyboard] 0.060976ms
+2014-07-25 15:44:24.533 MakeMeCoffee[27452:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-25 15:44:24.534 MakeMeCoffee[27452:70b] [CDVTimer][statusbar] 0.503004ms
+2014-07-25 15:44:24.534 MakeMeCoffee[27452:70b] [CDVTimer][TotalPluginStartup] 1.524985ms
+2014-07-25 15:44:24.682 MakeMeCoffee[27452:70b] Resetting plugins due to page load.
+2014-07-25 15:44:25.163 MakeMeCoffee[27452:70b] Finished load of: file:///Users/imanol/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/C6A35F1F-23B7-4C45-B101-9A8E6350AB19/MakeMeCoffee.app/www/index.html
+2014-07-25 16:05:56.207 MakeMeCoffee[27733:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-25 16:05:56.216 MakeMeCoffee[27733:70b] Unlimited access to network resources
+2014-07-25 16:05:56.241 MakeMeCoffee[27733:70b] [CDVTimer][keyboard] 0.059962ms
+2014-07-25 16:05:56.242 MakeMeCoffee[27733:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-25 16:05:56.242 MakeMeCoffee[27733:70b] [CDVTimer][statusbar] 0.427008ms
+2014-07-25 16:05:56.243 MakeMeCoffee[27733:70b] [CDVTimer][TotalPluginStartup] 1.442015ms
+2014-07-25 16:05:56.357 MakeMeCoffee[27733:70b] Resetting plugins due to page load.
+2014-07-25 16:05:56.711 MakeMeCoffee[27733:70b] Finished load of: file:///Users/imanol/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/C6A35F1F-23B7-4C45-B101-9A8E6350AB19/MakeMeCoffee.app/www/index.html
+2014-07-26 09:08:52.378 MakeMeCoffee[28222:70b] Multi-tasking -> Device: YES, App: YES
+2014-07-26 09:08:52.428 MakeMeCoffee[28222:70b] Unlimited access to network resources
+2014-07-26 09:08:52.592 MakeMeCoffee[28222:70b] [CDVTimer][keyboard] 0.060976ms
+2014-07-26 09:08:52.592 MakeMeCoffee[28222:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-07-26 09:08:52.593 MakeMeCoffee[28222:70b] [CDVTimer][statusbar] 0.859022ms
+2014-07-26 09:08:52.593 MakeMeCoffee[28222:70b] [CDVTimer][TotalPluginStartup] 1.870990ms
+2014-07-26 09:08:52.740 MakeMeCoffee[28222:70b] Resetting plugins due to page load.
+2014-07-26 09:08:53.276 MakeMeCoffee[28222:70b] Finished load of: file:///Users/imanol/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/C6A35F1F-23B7-4C45-B101-9A8E6350AB19/MakeMeCoffee.app/www/index.html
+2014-07-26 09:09:00.674 MakeMeCoffee[28222:70b] 32

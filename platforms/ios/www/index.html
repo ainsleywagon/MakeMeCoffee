@@ -20,11 +20,7 @@
 
     <!-- your app's js -->
     <script src="js/app.js"></script>
-    <style>
-      .list{
-        margin-top: 100px;
-      }
-    </style>
+
   </head>
   <body  ng-controller="mainCtrl" animation="slide-left-right-ios7">
 
@@ -32,21 +28,31 @@
 
       <ion-content>
 
-              <img class='coffee-cup' src= "img/coffeecup.png">
-              <div class= "question-prompt">How much coffee <br>do you want?</div>
-              <form ng-submit="calculate()">
-                <input type="text" ng-model="valores.ounces" class="coffee-input" size="30" placeholder="Ounces">
-                <input class="button button-large coffee-btn" type="Submit" value="Submit">
+      <!-- green container with the cup and chemex image -->
+            <div ng-class="imgContainer">
+              <img  ng-class="imgClass"  ng-src= "img/{{divImg}}.png">
+            </div>
+      <!-- end of green container -->
 
-            <!-- <ul>
-              <li>{{valores.beanQty}}g of Coffee</li>
-              <li>{{valores.waterQty}}g water</li>
-              <li>{{valores.firstPour}}g first pour</li>
-              <li>{{valores.secondPour}}g second pour</li>
+      <!-- question -->
+            <div  ng-class="question">How much coffee <br>do you want? </div>
+      <!-- end of question -->
 
-            </ul> -->
+      <!-- form with text input of ounzes and the button -->
+            <form  ng-submit="calculate()">
+              <input type="text" ng-model="valores.ounces" ng-class="ounzesInput" size="30" placeholder="Ounces">
+              <input ng-click="changeClass()" ng-class="botonOunzes" type="Submit" value="Submit">
             </form>
+      <!-- end of form -->
 
+      <!-- list of ingredients -->
+            <ul ng-class="lista">
+              <li ng-class="class">{{valores.beanQty}}g of Coffee beans</li>
+              <li ng-class="class">{{valores.waterQty}}g water</li>
+              <li ng-class="class">{{valores.firstPour}}g first pour</li>
+              <li ng-class="class">{{valores.secondPour}}g second pour</li>
+            </ul>
+      <!-- end of the list of ingredients -->
 
 
 
