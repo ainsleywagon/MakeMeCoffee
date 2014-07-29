@@ -48,7 +48,7 @@ body {
   width: 150px;
   margin: 0 auto;
   border-radius: 100%;
-  margin-top: 70px;
+  margin-top: 40px;
   margin-bottom: 40px;
 }
 
@@ -60,35 +60,116 @@ body {
 
 }
 
+@keyframes question-mv { /* CSS3 */
+  100%  { opacity:0; }
+}
+@-moz-keyframes question-mv { /* Firefox */
+  100%  { opacity:0; }
+}
+@-webkit-keyframes question-mv { /* Webkit */
+  100%  { opacity:0; }
+}
 .question-mv {
-  opacity:0;
+  animation:         question-mv 0.5s forwards; /* CSS3 */
+  -moz-animation:    question-mv 0.5s forwards; /* Firefox */
+  -webkit-animation: question-mv 0.5s forwards; /* Webkit */
+
+}
+
+@keyframes ounzesInput-mv { /* CSS3 */
+  100%  { transform: translate(-350px,0);
+  -webkit-transform: translate(-350px,0); /** Chrome & Safari **/
+  -o-transform: translate(-350px,0); /** Opera **/
+-moz-transform: translate(-350px,0); /** Firefox **/ }
+}
+@-moz-keyframes ounzesInput-mv { /* Firefox */
+  100%  { transform: translate(-350px,0);
+  -webkit-transform: translate(-350px,0); /** Chrome & Safari **/
+  -o-transform: translate(-350px,0); /** Opera **/
+-moz-transform: translate(-350px,0); /** Firefox **/ }
+}
+@-webkit-keyframes ounzesInput-mv { /* Webkit */
+  100%  { transform: translate(-350px,0);
+  -webkit-transform: translate(-350px,0); /** Chrome & Safari **/
+  -o-transform: translate(-350px,0); /** Opera **/
+-moz-transform: translate(-350px,0); /** Firefox **/ }
 }
 
 .ounzesInput-mv {
-    transform: translate(350px,0);
-    -webkit-transform: translate(350px,0); /** Chrome & Safari **/
-    -o-transform: translate(350px,0); /** Opera **/
-    -moz-transform: translate(350px,0); /** Firefox **/
+  animation:         ounzesInput-mv 3s forwards; /* CSS3 */
+  -moz-animation:    ounzesInput-mv 3s forwards; /* Firefox */
+  -webkit-animation: ounzesInput-mv 3s forwards; /* Webkit */
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  border: black solid 3px !important;
+  border-radius: 10px;
+  height: 50px !important;
+  width: 75%;
+  max-width: 400px;
+  font-size: 75% !important;
+  margin: auto;
+  margin-top: 20px;
+
+}
+
+@keyframes botonOunzes-mv { /* CSS3 */
+  100%  { transform: translate(350px,0);
+  -webkit-transform: translate(350px,0); /** Chrome & Safari **/
+  -o-transform: translate(350px,0); /** Opera **/
+-moz-transform: translate(350px,0); /** Firefox **/ }
+}
+@-moz-keyframes botonOunzes-mv { /* Firefox */
+  100%  { transform: translate(350px,0);
+  -webkit-transform: translate(350px,0); /** Chrome & Safari **/
+  -o-transform: translate(350px,0); /** Opera **/
+-moz-transform: translate(350px,0); /** Firefox **/ }
+}
+@-webkit-keyframes botonOunzes-mv { /* Webkit */
+  100%  { transform: translate(350px,0);
+  -webkit-transform: translate(350px,0); /** Chrome & Safari **/
+  -o-transform: translate(350px,0); /** Opera **/
+-moz-transform: translate(350px,0); /** Firefox **/ }
 }
 
 .botonOunzes-mv {
-    transform: translate(-350px,0);
-    -webkit-transform: translate(-350px,0); /** Chrome & Safari **/
-    -o-transform: translate(-350px,0); /** Opera **/
-    -moz-transform: translate(-350px,0); /** Firefox **/
+  animation:         botonOunzes-mv 3s forwards; /* CSS3 */
+  -moz-animation:    botonOunzes-mv 3s forwards; /* Firefox */
+  -webkit-animation: botonOunzes-mv 3s forwards; /* Webkit */
+  color: white;
+  background-color: #42210b;
+  border: 3px solid black;
+  margin: 30px;
+  width: 75% !important;
+  max-width: 400px;
+
+}
+
+@keyframes lista-mv { /* CSS3 */
+  100%  { transform: translate(0,-250px);
+  -webkit-transform: translate(0,-250px); /** Chrome & Safari **/
+  -o-transform: translate(0,-250px); /** Opera **/
+-moz-transform: translate(0,-250px); /** Firefox **/ }
+}
+@-moz-keyframes lista-mv { /* Firefox */
+  100%  { transform: translate(0,-250px);
+  -webkit-transform: translate(0,-250px); /** Chrome & Safari **/
+  -o-transform: translate(0,-250px); /** Opera **/
+-moz-transform: translate(0,-250px); /** Firefox **/ }
+}
+@-webkit-keyframes lista-mv { /* Webkit */
+  100%  { transform: translate(0,-250px);
+  -webkit-transform: translate(0,-250px); /** Chrome & Safari **/
+  -o-transform: translate(0,-250px); /** Opera **/
+-moz-transform: translate(0,-250px); /** Firefox **/ }
 }
 
 .lista-mv {
-    position: relative;
-    top: -120px;
+  animation:         lista-mv 3s forwards; /* CSS3 */
+  -moz-animation:    lista-mv 3s forwards; /* Firefox */
+  -webkit-animation: lista-mv 3s forwards; /* Webkit */
+
 }
 
-.list{
-  margin-top: 100px;
-}
-.red {
+.lista {
   color: white;
-}
-.gray {
-  color: #666;
 }

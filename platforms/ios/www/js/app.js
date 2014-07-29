@@ -50,7 +50,7 @@ angular.module('coffeeCalculator', ['ionic'])
         $scope.imgClass = "splash";
         $scope.question = "question-mv";
         $scope.ounzesInput = "ounzesInput-mv";
-        $scope.botonOunzes = "botonOunzes-mv";
+        $scope.botonOunzes = "botonOunzes-mv button button-large";
         $scope.lista = "lista-mv";
       } else {
         $scope.class = "red";
