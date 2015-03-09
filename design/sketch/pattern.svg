@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="79px" height="98px" viewBox="0 0 79 98" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>pattern</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="splash-screen" sketch:type="MSLayerGroup" transform="translate(-1640.000000, -1586.000000)"></g>
+        <g id="pattern" sketch:type="MSArtboardGroup" stroke-width="3">
+            <g id="Shape-+-Shape-4" sketch:type="MSLayerGroup" transform="translate(51.000000, 6.000000)">
+                <path d="M13.9777778,0 C13.9777778,0 -6.22222222,36.2 13.9777778,36.1 C13.9777778,36.2 34.9777778,38.5 13.9777778,0 L13.9777778,0 Z" id="Shape" stroke="#42210B" fill="#42210B" sketch:type="MSShapeGroup"></path>
+                <path d="M8.97777778,0 C8.97777778,0 -11.2222222,36.2 8.97777778,36.1 C8.97777778,36.2 29.9777778,38.5 8.97777778,0 L8.97777778,0 Z" id="Shape-2" stroke="#000000" sketch:type="MSShapeGroup"></path>
+            </g>
+            <g id="Shape-+-Shape-5" sketch:type="MSLayerGroup" transform="translate(8.000000, 55.000000)">
+                <path d="M13.9777778,0 C13.9777778,0 -6.22222222,36.2 13.9777778,36.1 C13.9777778,36.2 34.9777778,38.5 13.9777778,0 L13.9777778,0 Z" id="Shape" stroke="#42210B" fill="#42210B" sketch:type="MSShapeGroup"></path>
+                <path d="M8.97777778,0 C8.97777778,0 -11.2222222,36.2 8.97777778,36.1 C8.97777778,36.2 29.9777778,38.5 8.97777778,0 L8.97777778,0 Z" id="Shape-2" stroke="#000000" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>
